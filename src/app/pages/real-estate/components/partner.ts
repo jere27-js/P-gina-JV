@@ -12,7 +12,7 @@ import { CommonModule } from "@angular/common";
         <h1
           class="max-w-[34rem] text-3xl lg:text-6xl font-semibold text-surface-950 dark:text-surface-0 leading-tight"
         >
-          Your Trusted Real Estate Partner
+          Eximius 2026 Causa y Efecto.
         </h1>
         <div class="max-w-[34rem]">
           <p class="text-lg text-surface-500 dark:text-white/64">

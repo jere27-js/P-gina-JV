@@ -6,7 +6,6 @@ import { RealEstateBestProjectsFirst } from "./components/bestprojectsfirst";
 import { RealEstateWorkflow } from "./components/workflow";
 import { RealEstateTestimonials } from "./components/testimonial";
 import { RealEstateCTA } from "./components/cta";
-import { RealEstateBestProjectsSecond } from "./components/bestprojectssecond";
 import { RealEstateFooter } from "./components/footer";
 
 @Component({
@@ -20,17 +19,18 @@ import { RealEstateFooter } from "./components/footer";
     RealEstateWorkflow,
     RealEstateTestimonials,
     RealEstateCTA,
-    RealEstateBestProjectsSecond,
     RealEstateFooter,
   ],
-  template: ` <real-estate-hero />
-    <real-estate-partner />
-    <real-estate-listing />
-    <real-estate-best-projects-first />
-    <real-estate-workflow />
-    <real-estate-testimonials />
-    <real-estate-cta />
-    <real-estate-best-projects-second />
-    <real-estate-footer />`,
+  template: ` 
+    <div class="bg-gradient-to-br from-orange-500 via-red-500 to-orange-600 dark:from-orange-600 dark:via-red-600 dark:to-orange-700">
+      <real-estate-hero />
+      <real-estate-cta />
+      <real-estate-workflow />
+      <real-estate-partner />
+      <real-estate-listing />
+      <real-estate-best-projects-first />
+      <real-estate-testimonials />
+      <real-estate-footer />
+    </div>`,
 })
 export class RealEstate {}

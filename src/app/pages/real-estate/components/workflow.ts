@@ -23,11 +23,11 @@ import { CommonModule } from "@angular/common";
         />
       </animated-container>
       <div class="flex-1">
-        <span class="badge">Construction</span>
+        <span class="badge">Eximius 2026</span>
         <h1
           class="text-3xl lg:text-5xl mt-4 font-semibold text-surface-950 dark:text-surface-0"
         >
-          Our Project Workflow
+          Causa y Efecto
         </h1>
         <p class="text-lg text-surface-500 dark:text-white/64 mt-5">
           Our streamlined project workflow ensures that every detail is

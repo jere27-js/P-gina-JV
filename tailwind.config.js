@@ -72,6 +72,7 @@ export default {
         slidefadeinright: "slidefadeinright 500ms ease",
         slidefadeinleft: "slidefadeinleft 500ms ease",
         zoomfadein: "zoomfadein 500ms ease-in-out",
+        "pulse-scale": "pulse-scale 2s ease-in-out infinite",
       },
       animationDuration: {
         600: "600ms",
@@ -124,6 +125,14 @@ export default {
           },
           "100%": {
             opacity: "1",
+          },
+        },
+        "pulse-scale": {
+          "0%, 100%": {
+            transform: "scale(1)",
+          },
+          "50%": {
+            transform: "scale(1.08)",
           },
         },
       },
