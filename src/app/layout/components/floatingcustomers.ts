@@ -16,7 +16,7 @@ import { twMerge } from "tailwind-merge";
     "
   >
     <div
-      *ngFor="let i of [1, 2, 3, 4]"
+      *ngFor="let i of [1, 2, 3, 4, 5, 6, 7, 8]"
       class="flex flex-nowrap items-center justify-center md:justify-start animate-infinite-scroll"
     >
       <div
