@@ -99,16 +99,16 @@ import { FloatingCustomers } from "@/layout/components/floatingcustomers";
           </div>
         </div>
       </div>
-    </animated-container>
 
-    <!-- Logos de sponsors/partners - ancho completo sin márgenes -->
-    <div class="w-screen relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] -mt-64 bg-gradient-to-br from-orange-500 via-red-500 to-orange-600 dark:from-orange-600 dark:via-red-600 dark:to-orange-700 py-8">
-      <floating-customers
-        className=""
-        iconClass="[&_path]:fill-surface-900 dark:[&_path]:fill-surface-900"
-        labelClass="text-surface-900 dark:text-surface-900"
-      />
-    </div>
+      <!-- Logos de sponsors/partners - ancho completo -->
+      <div class="w-screen relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] mt-16 bg-gradient-to-br from-orange-500 via-red-500 to-orange-600 dark:from-orange-600 dark:via-red-600 dark:to-orange-700 py-8">
+        <floating-customers
+          className=""
+          iconClass="[&_path]:fill-surface-900 dark:[&_path]:fill-surface-900"
+          labelClass="text-surface-900 dark:text-surface-900"
+        />
+      </div>
+    </animated-container>
   `,
 })
 export class RealEstateHero {
